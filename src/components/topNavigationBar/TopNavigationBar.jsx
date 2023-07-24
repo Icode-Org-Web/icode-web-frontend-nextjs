@@ -1,7 +1,7 @@
 export default function TopNavigationBar(){
     return (
         <div>
-            NavBar
+            NavBar Top
         </div>
     )
 }
