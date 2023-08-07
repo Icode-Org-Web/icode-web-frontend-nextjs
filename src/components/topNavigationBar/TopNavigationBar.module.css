@@ -1,0 +1,54 @@
+.Tabs {
+    display: flex;
+    width: 20%;
+  height: 80%;
+  border: solid 0.1em transparent;
+  border-radius: 30px;
+  background-color: black;
+  background-image: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
+  border-image-slice: 1;
+  background-size: 100% 100%;
+  animation: gradientAnimation 10s ease infinite;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align: center;
+  align-items: center;
+  margin-left: 5%;
+  justify-content: space-evenly;
+  color: #838383;  
+  cursor: pointer;
+  }
+  .TabsNotSelected{
+    display: flex;
+    width: 10%;
+  height: 80%;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #838383;  
+  cursor: pointer;
+
+  }
+
+  .Main{
+    display:flex;
+    flex-direction:row; 
+    width:100%; 
+    justify-content:'space-between';
+    background-color:'Balck';
+    /* align-items:'center'; */
+    padding-top:'2%';
+    padding-bottom:'2%';
+  }
+  .LogoContainer{
+    width: 50%;
+  }
+
+  .TabsContainer{
+    display:'flex' !important;
+    flex-direction:'row' !important;
+    width:'70%'!important;
+    justify-content:'space-evenly' !important
+  }

@@ -1,3 +1,4 @@
+import Footer from '@/components/footer/Footer';
 import TopNavigationBar from '@/components/topNavigationBar/TopNavigationBar';
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
       <TopNavigationBar/>
       <div className='flex justify-center'>
         <h1>Hello Icode Web</h1>
+        <Footer/>
       </div>
     </main>
   )
