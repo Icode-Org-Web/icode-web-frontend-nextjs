@@ -1,22 +1,20 @@
 import styles from './TopNavigationBar.module.css'
-import Image from 'next/image'
+import Image from './images.jpg'
+import Link from 'next/link'
 export default function TopNavigationBar(){
     return (
-        <div className={styles.Main} style={{backgroundColor:'black', paddingBottom:'2%',paddingTop:'2%'}}>
+        <div className={styles.Main}>
             <div className={styles.LogoContainer}>
-            <Image
-              priority
-              src="/images.jpg"
-              width={300}
-              height={40}
-              alt=""
-            />
+            <img 
+            src={Image}
+            alt='Logo' 
+            style={{height:'40px',width:'200px',backgroundColor:'red'}}/>
             </div>
-            <div style={{display:'flex',flexDirection:'row',width:'60%',justifyContent:'right'}}>
-                <button className={styles.Tabs}>Partner</button>
-                <button className={styles.Tabs}>Services</button>
-                <button className={styles.Tabs}>Team</button>
-                <button className={styles.Tabs}>Contact Us</button>
+            <div className={styles.TabsContainer}>
+                <div className={styles.Tabs}><Link href="/Partner">Partner</Link></div>
+                <div className={styles.TabsNotSelected}><Link href="/Services">Services</Link></div>
+                <div className={styles.TabsNotSelected}><Link href="/Team">Team</Link></div>
+                <div className={styles.TabsNotSelected}><Link href="/Contact">Contact Us</Link></div>
             </div>
         </div>
     )

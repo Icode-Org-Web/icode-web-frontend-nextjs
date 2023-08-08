@@ -8,20 +8,25 @@
   background-image: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
   border-image-slice: 1;
   background-size: 100% 100%;
-  animation: gradientAnimation 10s ease infinite;
   background-origin: border-box;
   background-clip: content-box, border-box;
   text-align: center;
   align-items: center;
-  margin-left: 5%;
   justify-content: space-evenly;
   color: #838383;  
   cursor: pointer;
+  font-size: 1.2rem;
   }
   .TabsNotSelected{
     display: flex;
-    width: 10%;
+    width: 20%;
+    font-size: 1.2rem;
   height: 80%;
+  border: solid 0.1em transparent;
+  border-radius: 30px;
+  background-color: black;
+  border-image-slice: 1;
+  background-size: 100% 100%;
   background-origin: border-box;
   background-clip: content-box, border-box;
   text-align: center;
@@ -30,25 +35,28 @@
   color: #838383;  
   cursor: pointer;
 
+  }
+  .TabsContainer{
+    display:flex;
+    width:60%;
+    justify-content:space-evenly;
   }
 
   .Main{
     display:flex;
-    flex-direction:row; 
     width:100%; 
-    justify-content:'space-between';
-    background-color:'Balck';
-    /* align-items:'center'; */
-    padding-top:'2%';
-    padding-bottom:'2%';
+    align-items: center;
+    background-color:Black;
+    padding-top:2%;
+    padding-bottom:2%;
+    background-color:black; 
   }
   .LogoContainer{
-    width: 50%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
 
-  .TabsContainer{
-    display:'flex' !important;
-    flex-direction:'row' !important;
-    width:'70%'!important;
-    justify-content:'space-evenly' !important
-  }
+
