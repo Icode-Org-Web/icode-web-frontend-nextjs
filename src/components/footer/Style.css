@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     background-color: black;
-    padding: 10px;
+    padding-top: 10px;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -13,17 +13,39 @@
 
   }
 
-  .FooterSection{
-    /* background-color:white !important; */
-    height:100%;
-    width:20%
+  .FooterSection-logo{
+    background-color:white !important;
+    height:20%;
+    width:30%
   }
   .Footer-Contact-Details-Container{
     display: flex;
+    /* width:60%; */
     flex-direction: column;
     justify-content: center;
+    font-size: 2vw;
   }
-
+  @media (max-width: 600px) {
+    .Footer-Contact-Details-Container {
+      font-size: 2vw;
+    }
+    .FooterContainer{
+      height:15%
+    }
+    .FB-Icon{
+      height: 1px;
+      width: 1px;
+      color:white;
+    }
+    .Insta-Icon{
+      height: 1vh;
+      width: 1vw;
+    }
+    .Twitter-Icon{
+      height: 1vh;
+      width: 1vw;
+    }
+  }
   .FooterSectionicons{
     display: flex;
     height: 20%;
@@ -38,7 +60,7 @@
     color: #8CBDD2;
   }
   .Insta-Icon{
-    height: 1.5rem;
+    height:1.5rem;
     width: 1.5rem;
     fill: #FCDDAE;
   }

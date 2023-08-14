@@ -13,7 +13,7 @@ export default function Footer() {
     
   return (
     <div className='FooterContainer'>
-        <div className="FooterSection">
+        <div className="FooterSection-logo">
             <img 
             src={Image}
             alt='Logo' 
