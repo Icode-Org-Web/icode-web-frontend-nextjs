@@ -2,7 +2,9 @@ import React from 'react'
 import {BsFacebook,BsTwitter} from 'react-icons/bs'
 import {PiInstagramLogoFill} from 'react-icons/pi'
 import './Style.css'
-import Image from './profile.jpg'
+import Image from './next.svg'
+import 'tailwindcss'
+// import './next.svg'
 
 
 export default function Footer() {

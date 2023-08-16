@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 25%;
+    height: 30%;
 
   }
 
@@ -23,7 +23,7 @@
     /* width:60%; */
     flex-direction: column;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 1.4vw;
   }
   @media (max-width: 600px) {
     .Footer-Contact-Details-Container {
@@ -55,17 +55,17 @@
     margin-top: 7%;
   }
   .FB-Icon{
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 5vh;
+    width: 5vw;
     color: #8CBDD2;
   }
   .Insta-Icon{
-    height:1.5rem;
-    width: 1.5rem;
+    height:5vh;
+    width: 5vw;
     fill: #FCDDAE;
   }
   .Twitter-Icon{
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 5vh;
+    width: 5vw;
     color: #5089B2;
   }
