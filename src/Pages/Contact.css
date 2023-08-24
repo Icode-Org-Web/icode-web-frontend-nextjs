@@ -1,0 +1,40 @@
+.Table-Container{
+    width: 60vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around   ;
+}
+@media (max-width: 400px ) {
+    .Table-Container{
+        font-size: 1vw;
+    }
+}
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 3%;   
+}
+textarea{
+    width: 30vw;
+    background-color: #282828;
+    height:10vh;
+    border-radius: 4px;
+}
+
+input{
+    width: 30vw;
+    background-color: #282828;
+    height:4vh;
+    border-radius: 4px;
+}
+.text{
+    padding-right: 1%;
+    text-align: left;
+    color: #ABABAB;
+}

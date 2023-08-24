@@ -52,6 +52,11 @@
     padding-bottom:2%;
     background-color:black; 
   }
+  /* @media (max-width: 850px){
+    .Main{
+      width:125%;
+    } */
+  /* } */
   .LogoContainer{
     width: 40%;
     display: flex;
