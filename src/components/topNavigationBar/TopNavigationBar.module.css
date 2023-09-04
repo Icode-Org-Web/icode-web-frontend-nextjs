@@ -1,11 +1,15 @@
+@font-face {
+  font-family: Roboto Mono;
+  src: url('http://fonts.googleapis.com/css?family=Roboto');
+}
+
+
 .Tabs {
     display: flex;
     width: 20%;
   height: 80%;
-  border: solid 0.1em transparent;
+  border: solid 0.1em white;
   border-radius: 30px;
-  background-color: black;
-  background-image: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
   border-image-slice: 1;
   background-size: 100% 100%;
   background-origin: border-box;
@@ -15,7 +19,8 @@
   justify-content: space-evenly;
   color: #838383;  
   cursor: pointer;
-  font-size: 1.6vw;
+  font-size: 26px;
+  font-family: 'Roboto Mono';
   }
   .TabsNotSelected{
     display: flex;
@@ -34,7 +39,8 @@
   justify-content: space-evenly;
   color: #838383;  
   cursor: pointer;
-  font-size: 1.6vw;
+  font-size: 26px;
+  font-family: 'Roboto Mono';
 
   }
   .TabsContainer{
@@ -52,11 +58,14 @@
     padding-bottom:2%;
     background-color:black; 
   }
-  /* @media (max-width: 850px){
-    .Main{
-      width:125%;
-    } */
-  /* } */
+  @media (max-width: 500px){
+    .TabsNotSelected{
+      font-size: 10px;
+    }
+    .Tabs{
+      font-size: 10px;
+    }
+   }
   .LogoContainer{
     width: 40%;
     display: flex;

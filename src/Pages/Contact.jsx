@@ -6,27 +6,12 @@ export default function Contact() {
     <div>
 
  <div className='Table-Container'>    
- <div className='Container'><div className='text'>Email Address</div><div><input type='email'/></div></div>
- <div className='Container'><div className='text'>Name</div><div><input type='email'/></div></div>
- <div className='Container'><div className='text'>Message</div><div><textarea/></div></div>
-</div>
- {/* <table class="table-auto">
-  <tbody>
-    <tr>
-      <td class="w-full md:w-0 py-5" style={{textAlign:'center'}}>Email Address</td>
-      <td class="w-full h-1/2 py-5"><input type="email" style={{backgroundColor:"black",borderRadius:'4px',color:'white'}}/></td>
-    </tr>
-    <tr>
-      <td class="w-full  py-5">Name</td>
-      <td class="w-full py-5"><input type="text" style={{backgroundColor:"black",borderRadius:'4px',width:'100%',color:'white'}}/></td>
-    </tr>
-    <tr>
-      <td class="w-full py-5">Message</td>
-      <td class="w-full py-10"><textarea rows={5}  style={{backgroundColor:"black",borderRadius:'4px',width:'100%',color:'white'}}/></td>
-    </tr>
-  </tbody>
-</table> */}
-{/* </div> */}
+ <div className='Container'><div className='text'><p className="text- sm:8px md:text-base lg:text-lg">Email Address</p></div><div className="w-w-full h-1/2 md:w-3/4 md:h-48 lg:w-700px lg:h-64"><input type='email'/></div></div>
+ <div className='Container'><div className='text'><p className="text- sm:8px md:text-base lg:text-lg">Name</p></div><div className="w-w-full h-1/2 md:w-3/4 md:h-48 lg:w-700px lg:h-64"><input type='email'/></div></div>
+ <div className='Container'><div className='text'><p className="text- sm:2px md:text-base lg:text-lg">Message</p></div><div ></div></div>
+ <div className='Container'></div>
+ <div className='Container'><div className='Button'><div className='btn_Container'><button className='btn'>Send</button></div></div>
+</div></div>
     </div>
   )
 }

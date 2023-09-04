@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Roboto Mono;
+  src: url('http://fonts.googleapis.com/css?family=Roboto');
+}
+
 .FooterContainer{
     position: fixed; 
     bottom: 0;
@@ -9,7 +14,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 30%;
+    height: 25%;
 
   }
 
@@ -20,31 +25,18 @@
   }
   .Footer-Contact-Details-Container{
     display: flex;
-    /* width:60%; */
+    font-family: 'Roboto mono';
     flex-direction: column;
     justify-content: center;
-    font-size: 1.4vw;
+
+  
   }
   @media (max-width: 900px ) {
     .Footer-Contact-Details-Container {
-      font-size: 2vw;
+      font-size: 12px;
     }
     .FooterContainer{
-      height:15%;
-      /* width:75% */
-    }
-    .FB-Icon{
-      height: 1px;
-      width: 1px;
-      color:white;
-    }
-    .Insta-Icon{
-      height: 1vh;
-      width: 1vw;
-    }
-    .Twitter-Icon{
-      height: 1vh;
-      width: 1vw;
+      height:20%;
     }
   }
   .FooterSectionicons{
@@ -55,18 +47,5 @@
     justify-content: space-evenly;
     margin-top: 7%;
   }
-  .FB-Icon{
-    height: 5vh;
-    width: 5vw;
-    color: #8CBDD2;
-  }
-  .Insta-Icon{
-    height:5vh;
-    width: 5vw;
-    fill: #FCDDAE;
-  }
-  .Twitter-Icon{
-    height: 5vh;
-    width: 5vw;
-    color: #5089B2;
-  }
+  
+  

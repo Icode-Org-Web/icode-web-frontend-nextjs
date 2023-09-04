@@ -1,8 +1,8 @@
 import React from 'react'
 import {BsFacebook,BsTwitter} from 'react-icons/bs'
 import {PiInstagramLogoFill} from 'react-icons/pi'
+import Logo from '../../../public/iCode_logo.png'
 import './Style.css'
-import Image from './next.svg'
 
 
 export default function Footer() {
@@ -15,22 +15,22 @@ export default function Footer() {
     <div className='FooterContainer'>
         <div className="FooterSection-logo">
             <img 
-            src={Image}
+            src={Logo}
             alt='Logo' 
             style={{height:'40px',width:'200px'}}/>
         </div>
         <div className='Footer-Contact-Details-Container'>
-            <h2 style={{marginBottom:'8%'}}>Contact Details</h2>
+            <h2 style={{marginBottom:'8%'}} className="text-sm md:text-base lg:text-lg">Contact Details</h2>
 
-            <p>Hotline -{Number_one} </p>
-            <p>Hotline -{Number_two} </p>
-            <p style={{textAlign:'right'}}>{Number_three}</p>
-            <p style={{marginTop:'8%'}}>Email -{Email} </p>
+            <p className="text-sm md:text-base lg:text-lg">Hotline -{Number_one} </p>
+            <p className="text-sm md:text-base lg:text-lg">Hotline -{Number_two} </p>
+            <p style={{textAlign:'right'}} className="text-sm md:text-base lg:text-lg">{Number_three}</p>
+            <p style={{marginTop:'8%'}} className="text-sm md:text-base lg:text-lg">Email -{Email} </p>
         </div>
         <div className='FooterSectionicons'>
-           <div><BsTwitter className='Twitter-Icon'/></div>
-           <div> <BsFacebook className='FB-Icon'/></div>
-            <div><PiInstagramLogoFill className='Insta-Icon'/></div>
+           <div><BsTwitter fill="#5089B2" className="sm:h-4 sm:w-4 md:h-6 md:w-6 lg:h-8 lg:w-8"/></div>
+           <div> <BsFacebook fill="#8CBDD2" className="sm:h-4 sm:w-4 md:h-6 md:w-6 lg:h-8 lg:w-8"/></div>
+            <div><PiInstagramLogoFill fill='#FCDDAE' className="sm:h-4 sm:w-4 md:h-6 md:w-6 lg:h-8 lg:w-8"/></div>
             
         </div>
     </div>

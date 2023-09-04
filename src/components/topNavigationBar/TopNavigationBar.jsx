@@ -11,10 +11,10 @@ export default function TopNavigationBar(){
             style={{height:'40px',width:'200px',backgroundColor:'red'}}/>
             </div>
             <div className={styles.TabsContainer}>
-                <div className={styles.Tabs}><Link href="/Partner">Partner</Link></div>
-                <div className={styles.TabsNotSelected}><Link href="/Services">Services</Link></div>
-                <div className={styles.TabsNotSelected}><Link href="/Team">Team</Link></div>
-                <div className={styles.TabsNotSelected}><Link href="/Contact">Contact Us</Link></div>
+                <div className={styles.Tabs}><Link href="/Partner"><p className="text-sm md:text-base lg:text-lg">Partner</p></Link></div>
+                <div className={styles.TabsNotSelected}><Link href="/Services"><p className="text-sm md:text-base lg:text-lg">Services</p></Link></div>
+                <div className={styles.TabsNotSelected}><Link href="/Team"><p className="text-sm md:text-base lg:text-lg">Team</p></Link></div>
+                <div className={styles.TabsNotSelected}><Link href="/Contact"><p className="text-sm md:text-base lg:text-lg">Contact Us</p></Link></div>
             </div>
         </div>
     )
