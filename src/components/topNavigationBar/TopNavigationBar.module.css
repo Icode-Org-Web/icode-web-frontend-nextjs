@@ -43,21 +43,7 @@
   font-family: 'Roboto Mono';
 
   }
-  .TabsContainer{
-    display:flex;
-    width:60%;
-    justify-content:space-evenly;
-  }
-
-  .Main{
-    display:flex;
-    width:100%; 
-    align-items: center;
-    background-color:Black;
-    padding-top:2%;
-    padding-bottom:2%;
-    background-color:black; 
-  }
+  
   @media (max-width: 500px){
     .TabsNotSelected{
       font-size: 10px;
@@ -66,12 +52,3 @@
       font-size: 10px;
     }
    }
-  .LogoContainer{
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-  }
-
-

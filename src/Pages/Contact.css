@@ -1,12 +1,10 @@
 .Table-Container{
-    width: 60vw;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around   ;
-}
-@media (max-width: 500px ) {
-    
+    align-items: center;
 }
 
 .Container{
@@ -36,7 +34,6 @@ input{
     padding-right: 1%;
     text-align: left;
     color: #ABABAB;
-    font-size: 32px;
     font-weight: 400;
 }
 .btn{
@@ -44,10 +41,11 @@ input{
     height: 58px;
     padding: 13px 30px 13px 30px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
     gap: 10px;
     background-color: #6EA59E;
     font-family: Roboto Mono;
-    font-size: 24px;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: 0em;
@@ -55,23 +53,25 @@ input{
 }
 @media (max-width:500px){
     .Container{
-        width:100%
+        justify-content: space-between;
+        width: 80%;
+        align-items: center;
     }
     input{
         width:200px;
         height:20px;
     }
-    .text{
+    /* .text{
         font-size: 20px;
-    }
+    } */
     .btn{
         height: 60px;
-        width:20px;
+        width:40px;
     }
 
 }
 .btn_Container{
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     width: 100%;
 }

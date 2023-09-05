@@ -12,14 +12,15 @@ export default function Footer() {
     const Email = 'example@gmail.com';
     
   return (
-    <div className='FooterContainer'>
-        <div className="FooterSection-logo">
+    <div className="fixed bottom-0 left-0 right-0 bg-black pt-1 text-white flex justify-around items-center lg:h-1/4 sm:h-1/5">
+        <div className="Flex justify-center">
             <img 
-            src={Logo}
+            src="/iCode_logo.png"
             alt='Logo' 
-            style={{height:'40px',width:'200px'}}/>
+            style={{height:'auto',width:'100px'}}
+           />
         </div>
-        <div className='Footer-Contact-Details-Container'>
+        <div className='flex font-mono flex-col justify-center'>
             <h2 style={{marginBottom:'8%'}} className="text-sm md:text-base lg:text-lg">Contact Details</h2>
 
             <p className="text-sm md:text-base lg:text-lg">Hotline -{Number_one} </p>
