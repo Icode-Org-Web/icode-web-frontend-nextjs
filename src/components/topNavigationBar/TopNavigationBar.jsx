@@ -1,6 +1,6 @@
 import styles from './TopNavigationBar.module.css'
-import Image from './images.jpg'
 import Link from 'next/link'
+
 export default function TopNavigationBar(){
     return (
         <div className="flex w-full items-center bg-black pt-2 pb-2">

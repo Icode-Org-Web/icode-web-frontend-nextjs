@@ -3,21 +3,6 @@
   src: url('http://fonts.googleapis.com/css?family=Roboto');
 }
 
-/* .FooterContainer{
-    position: fixed; 
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: black;
-    padding-top: 1%;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 25%;
-
-  } */
-
   .FooterSection-logo{
     display: flex;
     justify-content: center;
