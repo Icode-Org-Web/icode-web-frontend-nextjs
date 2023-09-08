@@ -4,7 +4,7 @@
 }
 
 
-.Tabs {
+/* .Tabs {
     display: flex;
     width: 20%;
   height: 80%;
@@ -21,8 +21,8 @@
   cursor: pointer;
   font-size: 26px;
   font-family: 'Roboto Mono';
-  }
-  .TabsNotSelected{
+  } */
+  /* .TabsNotSelected{
     display: flex;
     width: 20%;
     font-size: 100%;
@@ -42,13 +42,13 @@
   font-size: 26px;
   font-family: 'Roboto Mono';
 
-  }
+  } */
   
-  @media (max-width: 500px){
+  /* @media (max-width: 500px){
     .TabsNotSelected{
       font-size: 10px;
     }
     .Tabs{
       font-size: 10px;
     }
-   }
+   } */

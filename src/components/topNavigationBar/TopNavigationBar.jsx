@@ -11,10 +11,10 @@ export default function TopNavigationBar(){
             style={{height:'auto',width:'80px',backgroundColor:'red'}}/>
             </div>
             <div className="flex w-full justify-evenly">
-                <div className={styles.Tabs}><Link href="/Partner"><p className="text-sm:8px md:10px lg:26px">Partner</p></Link></div>
-                <div className={styles.TabsNotSelected}><Link href="/Services"><p className="text-sm:8px md:10px lg:26px">Services</p></Link></div>
-                <div className={styles.TabsNotSelected}><Link href="/Team"><p className="text-sm:8px md:10px lg:26px">Team</p></Link></div>
-                <div className={styles.TabsNotSelected}><Link href="/Contact"><p className="text-sm:8px md:10px lg:26px">Contact Us</p></Link></div>
+                <div className="flex w-1/4  h-auto border border-white rounded-full bg-gradient-to-r from-black to-black bg-clip-content-box bg-clip-border text-center items-center justify-evenly text-gray-500 cursor-pointer font-mono"><Link href="/Partner"><p className="text-sm md:10px lg:26px">Partner</p></Link></div>
+                <div className="flex w-1/4 h-auto bg-gradient-to-r from-black to-black bg-clip-content-box text-center items-center justify-evenly text-gray-500 cursor-pointer font-mono"><Link href="/Services"><p className="text-sm md:text-l lg:text-xl">Services</p></Link></div>
+                <div className="flex w-1/4 h-auto bg-gradient-to-r from-black to-black bg-clip-content-box text-center items-center justify-evenly text-gray-500 cursor-pointer font-mono"><Link href="/Team"><p className="text-sm md:text-l lg:text-xl">Team</p></Link></div>
+                <div className="flex w-1/4 h-auto bg-gradient-to-r from-black to-black bg-clip-content-box text-center items-center justify-evenly text-gray-500 cursor-pointer font-mono"><Link href="/Contact"><p className="text-sm md:text-l lg:text-xl">Contact Us</p></Link></div>
             </div>
         </div>
     )
