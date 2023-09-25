@@ -27,7 +27,7 @@ export default function Footer() {
             <p style={{textAlign:'right'}} className="text-xs md:text-base lg:text-lg">{Number_three}</p>
             <p style={{marginTop:'8%'}} className="text-xs md:text-base lg:text-lg">Email -{Email} </p>
         </div>
-        <div className='FooterSectionicons'>
+        <div className="flex items-end justify-evenly h-20 w-10 mt-7 flex-row">
            <div><BsTwitter fill="#5089B2" className="sm:h-4 sm:w-4 md:h-6 md:w-6 lg:h-8 lg:w-8"/></div>
            <div> <BsFacebook fill="#8CBDD2" className="sm:h-4 sm:w-4 md:h-6 md:w-6 lg:h-8 lg:w-8"/></div>
             <div><PiInstagramLogoFill fill='#FCDDAE' className="sm:h-4 sm:w-4 md:h-6 md:w-6 lg:h-8 lg:w-8"/></div>

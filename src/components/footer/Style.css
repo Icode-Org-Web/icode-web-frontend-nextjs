@@ -3,22 +3,5 @@
   src: url('http://fonts.googleapis.com/css?family=Roboto');
 }
 
-  
-  @media (max-width: 500px ) {
-    .Footer-Contact-Details-Container {
-      font-size: 8px;
-    }
-    .FooterContainer{
-      height:20%;
-    }
-  }
-  .FooterSectionicons{
-    display: flex;
-    height: 20%;
-    width: 10%;
-    align-items: flex-end;
-    justify-content: space-evenly;
-    margin-top: 7%;
-  }
-  
+ 
   
